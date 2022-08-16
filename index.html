@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>KEMPS2.0</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./js/styles.css" />
+  </head>
+
+  <body>
+    <!-- <h2>Kemps</h2> -->
+    <!-- header section -->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/4.jpg" alt="" class="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Properties</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li> -->
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <!-- section for carousel -->
+
+    <section>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/banner1.jpg"
+              class="d-block w-100 bannerimg"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/banner2.jpg"
+              class="d-block w-100 bannerimg"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/banner3.jpg"
+              class="d-block w-100 bannerimg"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#carouselExampleControls"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#carouselExampleControls"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- banenr two section -->
+
+    <section class="mt-5 mb-5">
+      <div data-aos="fade-up">
+        <div class="bannerTwo">
+          <img src="./assets/2565.jpg" alt="" class="bannerTwoImg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- the two grid section -->
+    <section class="container-fluid mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- <div data-aos="fade-right"> -->
+          <div data-aos="fade-right" class="gridOneBanner">
+            <img src="./assets/gr1.jpg" alt="" class="gridImg" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div data-aos="fade-left" class="gridTwoBanner">
+            <img src="./assets/gr2.jpg" alt="" class="gridImg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- the two grid section for about us-->
+    <section data-aos="zoom-in" class="aboutusSection mt-5 mb-5">
+      <div class="mt-3 mb-3">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <!-- <div data-aos="fade-right"> -->
+            <div class="gridOneBanner p-3">
+              <img src="./assets/cycle.webp" alt="" class="aboutusimg" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gridTwoBanner">
+              <div class="aboutus p-3">
+                <h1 class="text-center text-light font-weight-bold">
+                  About Us
+                </h1>
+                <p class="aboutus text-light">
+                  North Karnataka is scorching hot. Chilled beverages which kill
+                  the heat have been a part of the region’s culture for
+                  centuries, with each household having their own treasured
+                  recipes which have been passed down for generations. Kemps has
+                  an archive of the best recipes that the North has to offer.
+                  The rich cultural heritage being imbibed into the products
+                  that kemp’s offer is a proof of it being one of the oldest
+                  food and beverage companies. It has been one of the firsts in
+                  India to receive ISI certification. It has the one of the
+                  largest beverage manufacturing facility in Karnataka, Equipped
+                  with the latest beverage technology, Kemp’s has one of the
+                  largest beverage manufacturing facility in Karnataka that is
+                  centered around organic production methods. Kemp’s is known
+                  for its innovativeness and novelty in products as a result of
+                  their constant research efforts to produce what people love
+                  best!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- know about us video youtube video -->
+
+    <section class="videoSection mt-5 mb-5">
+      <div data-aos="fade-up" data-aos-duration="2000" class="videoDiv">
+        <div class="container text-center">
+          <h1 class="videoHeading">To know how we work</h1>
+          <iframe
+            class="iframeVideo"
+            src="https://www.youtube.com/watch?v=CLEzKEzovv0"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- the footer section -->
+    <section class="footerSection mt-5 mb-5">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="container-fluid footerDiv text-center mt-3 mb-3"
+      >
+        <h1 class="videoHeading">Get in touch with us</h1>
+        <div class="row align-items-center mt-4 mb-4 w-100">
+          <div class="col-md-3">
+            <img src="./assets/4.jpg" alt="" class="footerBottleImg" />
+          </div>
+          <div class="col-md-3">
+            <div class="formdiv d-flex flex-column">
+              <label for="fullName" class="font-weight-bold">Full Name</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="formInp"
+                placeholder="Enter your full name"
+              />
+              <label for="email" class="font-weight-bold">Email</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="formInp"
+                placeholder="Enter your email"
+              />
+              <label for="phone" class="font-weight-bold">Phone</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="formInp"
+                placeholder="Enter your phone number"
+              />
+              <label for="message" class="font-weight-bold">Message</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="formInp"
+                placeholder="Enter your message"
+              />
+            </div>
+            <div class="submit">
+              <button class="btn submitButton">Submit</button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div>
+              <!-- Google Map Copied Code -->
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6615.210461709452!2d76.37269801372173!3d15.260022289626654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb9d6a8bb6f0639%3A0x1e872a7faa96c863!2sKemp&#39;s!5e0!3m2!1sen!2sin!4v1660674315501!5m2!1sen!2sin"
+                class="mapFrame"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="container text-left mt-4 mb-4">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <h1 class="font-weight-bold">Reach us at</h1>
+              <p class="reachUs">
+                Kempannavar Industries, R 35, industries estate, Dam road,
+                Hosapete - 583203
+              </p>
+              <p class="reachUs">9686551876/ 9686551877</p>
+              <p class="reachUs">08394-232117</p>
+            </div>
+            <div class="col-md-6">
+              <div class="connectSocially d-flex">
+                <img
+                  src="./assets/facebook.png"
+                  alt=""
+                  class="socialIcon ml-5"
+                />
+                <a href="https://www.youtube.com/watch?v=CLEzKEzovv0">
+                  <img
+                    src="./assets/youtube.png"
+                    alt=""
+                    class="socialIcon ml-5"
+                  />
+                </a>
+                <a href="https://www.facebook.com/kempspet2">
+                  <img
+                    src="./assets/instagram.png"
+                    alt=""
+                    class="socialIcon ml-5"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- the scripts  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
