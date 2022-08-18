@@ -1,0 +1,29 @@
+body {
+  /* background-color: antiquewhite; */
+  font-family: "Poppins", sans-serif;
+}
+  /* body{
+    background-color: #6A3FB6;
+  } */
+  .aboutUsContainer{
+    background-color: #6A3FB6;
+  }
+.logo {
+    height: 50px;
+    width: 50px;
+  }
+  .navBar {
+    float: right;
+  }
+
+  .aboutUsBackground{
+  }
+
+  .imgAboutUs{
+    height: 100%;
+    width: 100%;
+  }
+
+  .secondAUSection{
+    background-color: #ED1566;
+  }

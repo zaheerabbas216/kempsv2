@@ -1,0 +1,16 @@
+.logo {
+    height: 50px;
+    width: 50px;
+  }
+  .navBar {
+    float: right;
+  }
+  body{
+    font-family: "Poppins", sans-serif;
+  }
+
+  .mainProductSection{
+  
+    height: 100vh;
+    background-color: #ED1566;
+  }
