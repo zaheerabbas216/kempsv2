@@ -18,7 +18,19 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
-    />  
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
     <link rel="stylesheet" href="./js/styles.css" />
   </head>
 
@@ -26,39 +38,72 @@
     <!-- <h2>Kemps</h2> -->
     <!-- header section -->
     <section>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          <img src="./assets/4.jpg" alt="" class="logo" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="navParent">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./assets/Kemps_Final_Logo BLUE png.png"
+              alt=""
+              class="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="./index.html"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./aboutus/aboutus.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./products/products.html">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./gallery/gallery.html">Gallery</a>
-            </li>
-            <!-- <li class="nav-item dropdown">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a
+                  class="nav-link customNavLink text-light font-weight-bold"
+                  href="./index.html"
+                  >Home <span class="sr-only"></span
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link customNavLink text-light font-weight-bold"
+                  href="./aboutus/aboutus.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link customNavLink text-light font-weight-bold"
+                  href="./aboutus/aboutus.html"
+                  >Eight Plus</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link customNavLink text-light font-weight-bold"
+                  href="./products/products.html"
+                  >Products</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link customNavLink text-light font-weight-bold"
+                  href="./products/products.html"
+                  >Contact Us</a
+                >
+              </li>
+              <!-- <li class="nav-item">
+                <a
+                  class="nav-link customNavLink text-light font-weight-bold"
+                  href="./gallery/gallery.html"
+                  >Contact Us</a
+                >
+              </li> -->
+              <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
             Dropdown
           </a>
@@ -69,9 +114,10 @@
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li> -->
-          </ul>
-        </div>
-      </nav>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </section>
 
     <!-- section for carousel -->
@@ -130,97 +176,69 @@
 
     <section class="mt-5 mb-5">
       <div data-aos="fade-up">
-        <div class="bannerTwo">
+        <!-- <div class="bannerTwo">
           <img src="./assets/chickmagalur.jpg" alt="" class="bannerTwoImg" />
+        </div> -->
+        <div class="row container-fluid align-items-center">
+          <div class="col-md-6 text-center">
+            <p class="bannerTwoFont">
+              Every drop of Kemp's Mineral Water is safe, pure, and sanitary to
+              the core and complies with the quality standards established by
+              the Bureau of Indian Standards, making it stand out for its
+              promise of goodness (BIS).
+            </p>
+            <p class="bannerTwoFont">
+              Kemp's Mineral Water is available in a variety of sizes for
+              every individual thirsts as well as sharing with family and
+              friends.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="./assets/pink with water splash.png"
+              alt=""
+              class="bannerTwoImg"
+            />
+          </div>
         </div>
       </div>
     </section>
 
     <!-- the two grid section -->
-    <section class="container-fluid mt-5 mb-5">
-      <div class="row">
-        <div class="col-md-6">
-          <!-- <div data-aos="fade-right"> -->
-          <div data-aos="fade-right" class="gridOneBanner">
-            <img src="./assets/5400101_18071614470066862970.jpg" alt="" class="gridImg" />
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div data-aos="fade-left" class="gridTwoBanner">
-            <img src="./assets/836e24cb1f46dbf89558324e33404e86.jpg" alt="" class="gridImg" />
-          </div>
+    <!-- <section class="container-fluid mt-5 mb-5">
+    <div class="row">
+      <div class="col-md-6">
+        <div data-aos="fade-right" class="gridOneBanner">
+          <img src="./assets/5400101_18071614470066862970.jpg" alt="" class="gridImg" />
         </div>
       </div>
-    </section>
-
-    <!-- the two grid section for about us-->
-    <section data-aos="zoom-in" class="aboutusSection mt-5 mb-5">
-      <div class="mt-3 mb-3">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <!-- <div data-aos="fade-right"> -->
-            <div class="gridOneBanner p-3">
-              <img src="./assets/cycle.webp" alt="" class="aboutusimg" />
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="gridTwoBanner">
-              <div class="aboutus p-3">
-                <h1 class="text-center text-light font-weight-bold">
-                  About Us
-                </h1>
-                <p class="aboutus text-light">
-                  North Karnataka is scorching hot. Chilled beverages which kill
-                  the heat have been a part of the region’s culture for
-                  centuries, with each household having their own treasured
-                  recipes which have been passed down for generations. Kemps has
-                  an archive of the best recipes that the North has to offer.
-                  The rich cultural heritage being imbibed into the products
-                  that kemp’s offer is a proof of it being one of the oldest
-                  food and beverage companies. It has been one of the firsts in
-                  India to receive ISI certification. It has the one of the
-                  largest beverage manufacturing facility in Karnataka, Equipped
-                  with the latest beverage technology, Kemp’s has one of the
-                  largest beverage manufacturing facility in Karnataka that is
-                  centered around organic production methods. Kemp’s is known
-                  for its innovativeness and novelty in products as a result of
-                  their constant research efforts to produce what people love
-                  best!
-                </p>
-              </div>
-            </div>
-          </div>
+      <div class="col-md-6">
+        <div data-aos="fade-left" class="gridTwoBanner">
+          <img src="./assets/836e24cb1f46dbf89558324e33404e86.jpg" alt="" class="gridImg" />
         </div>
       </div>
-    </section>
+    </div>
+  </section> -->
 
-    <!-- know about us video youtube video -->
-
-    <section class="videoSection mt-5 mb-5">
-      <div data-aos="fade-up" data-aos-duration="2000" class="videoDiv">
-        <div class="container text-center">
-          <h1 class="videoHeading">To know how we work</h1>
-          <iframe
-            class="iframeVideo"
-            src="https://www.youtube.com/watch?v=CLEzKEzovv0"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-        </div>
+    <!-- carousel section -->
+    <!-- <div data-aos="fade-right"> -->
+    <div data-aos="fade-up" class="multiple-items container mb-5">
+      <div>
+        <img src="./assets/agumbe.jpg" alt="" class="carouselImg" />
       </div>
-    </section>
+      <div><img src="./assets/agumbe.jpg" alt="" class="carouselImg" /></div>
+      <div><img src="./assets/agumbe.jpg" alt="" class="carouselImg" /></div>
+      <div><img src="./assets/agumbe.jpg" alt="" class="carouselImg" /></div>
+      <div><img src="./assets/agumbe.jpg" alt="" class="carouselImg" /></div>
+    </div>
 
     <!-- the footer section -->
-    <section class="footerSection mt-5 mb-5">
-      <div
-        data-aos="fade-up"
-        data-aos-duration="2000"
-        class="container-fluid footerDiv text-center mt-3 mb-3"
-      >
+    <section  class="footerSection mt-5">
+      <div class="container-fluid footerDiv text-center mt-3 mb-3">
         <h1 class="videoHeading">Get in touch with us</h1>
         <div class="row align-items-center mt-4 mb-4 w-100">
           <div class="col-md-3">
-            <img src="./assets/4.jpg" alt="" class="footerBottleImg" />
+            <img src="./assets/Kemps_Final_Logo BLUE.jpg" alt="" class="footerBottleImg" />
           </div>
           <div class="col-md-3">
             <div class="formdiv d-flex flex-column">
@@ -315,6 +333,15 @@
     </section>
 
     <!-- the scripts  -->
+    <!-- https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/index.js"></script>
     <script

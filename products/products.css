@@ -12,23 +12,82 @@
   .mainProductSection{
   
     /* height: 100vh; */
-    background-color: #ED1566;
+    background-color: #ffff;
   }
 
   .prodCard{
     border-radius: 0px;
-  }
-  .gridImg{
-    object-fit: cover;
-    width: 100%;
-    height: 33vh;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
+  .prodDesc{
+    font-size: 25px;
+  }
+
+  .desc{
+    font-size: 10px;
+  }
+
+  .gridImg{
+    object-fit: cover;
+    width: 40%;
+    height: 33vh;
+  }
+.grid_{
+  margin-bottom: 5rem;
+}
   .zoom {
     transition: transform .2s; /* Animation */
     margin: 0 auto;
   }
   
   .zoom:hover {
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
+
+  .contactUsLogo{
+    width: 100%;
+  }
+
+  .logoCU{
+    width: auto;
+    height: 6rem;
+    /* object-fit: cover; */
+  }
+
+  .formdiv {
+    text-align: left;
+  }
+  
+  .formInp {
+    height: 50px;
+    border: 1px solid #f3f3f3;
+    border-radius: 0px;
+    outline: none;
+  }
+  
+  .submitButton {
+    background-color: #e9001f;
+    color: #f3f3f3;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+  }
+
+  .reachUs {
+    /* font-weight: 600; */
+  }
+
+  .modal-dialog {
+    max-width: 750px;
+
+    margin: 1.75rem auto;
+}
+.modal-content{
+  border: none;
+  border-radius: 0px;
+}
