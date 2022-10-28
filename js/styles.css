@@ -3,28 +3,72 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* the NAVBAR STYLES */
 /* updated logo vallues */
 .logo {
   height: auto;
-  width: 10rem;
+  width: 9rem;
+  padding-top: 10px;
 }
 .navBar {
   float: right;
 }
 
+.customNavLink{
+  font-size: 22px;
+  /* color: #0174bc !important; */
+  color: #ff0080 !important;
+}
+/* .customNav{
+  background-color: transparent !important;
+  z-index: 1;
+  width: 100%;
+  position: absolute;  
+} */
+.customNav{
+  background-color: #ffff !important;
+  height: 100%;
+}
+.navParent{
+  position: relative;
+  background-color: aqua;
+  height: 4rem;
+}
+
+/* END OF THE NAVBAR */
+
+/* START OF THE BANNER HOME SECTION CAROUSEL BANNER */
 .bannerimg {
-  height: 50rem;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
+.carouselBannersOne{
+  height:100%;
+}
+
+/* END OF THE BANNER HOME SECTION CAROSEL BANNER */
+
+
+/* START OF THE BANNER TWO */
 .bannerTwoFont{
   font-size: 1.5rem;
+  color: #ffff;
+}
+
+.bannerCard{
+  height: 100%;
+  display: flex;
+  background-color: #ff0080;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: center;
 }
 
 .bannerTwoImg {
   width: 100%;
-  height: 40rem;
+  height: 50rem;
   object-fit: cover;
 }
 .gridImg {
@@ -90,23 +134,11 @@ body {
   width: 50px;
 }
 
-.customNavLink{
-  font-size: 25px;
-  color: #0174bc !important;
-}
-.customNav{
-  background-color: transparent !important;
-  z-index: 1;
-  width: 100%;
-  position: absolute;
-}
-.navParent{
-  position: relative;
-}
+
 
 .carouselImg{
-  height: 20rem;
-  width: 20rem;
+  height: 30rem;
+  width: 80rem;
   object-fit: cover;
 }
 
@@ -114,3 +146,32 @@ body {
   /* margin-top: 8rem;
   margin-bottom: 8rem; */
 }
+
+
+/* achivement section */
+
+.achivementSection{
+  
+}
+
+.carouselBannersAchivement{
+  height: 35rem;
+  border: 1px solid red;
+}
+
+.bannerimgAchivement{
+  height: 35rem;
+  object-fit: cover;
+}
+
+.railwayImgAch{
+  height: 100%;
+  width: 90%;
+  object-fit: cover;
+}
+.railwayRailImg{
+  height: 108%;
+  width: 100%;
+  object-fit: cover;
+}
+/* end of the achivement section */
