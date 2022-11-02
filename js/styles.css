@@ -48,7 +48,29 @@ body {
   height:100%;
 }
 
+.bannerItemDiv{
+  position: relative !important;
+}
+
+.exploreBtn{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 145px;
+  right: 145px;
+  height: 60px;
+  width: 135px;
+  background: #0074bd;
+  color: #ffff;
+  font-weight: bold;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}
+
 /* END OF THE BANNER HOME SECTION CAROSEL BANNER */
+
+
 
 
 /* START OF THE BANNER TWO */
@@ -175,3 +197,24 @@ body {
   object-fit: cover;
 }
 /* end of the achivement section */
+
+
+/* slcik carousel arrow */
+
+.slick-next .slick-arrow{
+}
+
+.slick-next {
+  right: -5px !important;
+}
+
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 40px;
+  color: #ff0080 !important;
+  line-height: 1;
+  opacity: .75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

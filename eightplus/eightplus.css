@@ -139,6 +139,7 @@ body {
 .brochureImgBottle{
   position: absolute;
   width: auto;
+  transform: translateX(92px);
   height: 20rem;
   top: -11rem;
 }
@@ -278,3 +279,15 @@ margin-bottom: 5rem;
 }
 
 /* end of the differnces section */
+
+
+/* benefits section */
+.benefitsImgContainer{}
+.benefitsImgFR{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+
+/* end of benefits section */

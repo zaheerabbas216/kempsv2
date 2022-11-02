@@ -25,10 +25,12 @@
 
   .prodDesc{
     font-size: 25px;
+    color: #ED1566;
   }
 
   .desc{
     font-size: 10px;
+    font-weight: bold;
   }
 
   .gridImg{
@@ -84,9 +86,9 @@
 
   .modal-dialog {
     max-width: 750px;
-
     margin: 1.75rem auto;
 }
+
 .modal-content{
   border: none;
   border-radius: 0px;

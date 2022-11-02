@@ -6,7 +6,7 @@ body {
     background-color: #6A3FB6;
   } */
   .aboutUsContainer{
-    background-color: #6A3FB6;
+    background-color: #ED1566;
   }
 .logo {
     height: 50px;
@@ -26,4 +26,14 @@ body {
 
   .secondAUSection{
     background-color: #ED1566;
+  }
+
+  /* about us banner img */
+  .auContainer{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  }
+  .auBannerImg{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
   }
