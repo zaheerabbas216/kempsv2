@@ -16,6 +16,11 @@ body {
     float: right;
   }
 
+  .logo {
+    height: auto;
+    width: 9rem;
+    padding-top: 10px;
+  }
   .aboutUsBackground{
   }
 

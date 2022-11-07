@@ -16,6 +16,12 @@
     background-color: #ED1566;
   }
 
+  .logo {
+    height: auto;
+    width: 9rem;
+    padding-top: 10px;
+  } 
+
   .prodCard{
     border-radius: 0px;
   }

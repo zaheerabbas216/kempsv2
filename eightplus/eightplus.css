@@ -15,8 +15,9 @@ body {
   width: 50px;
 }
 
-.navBar {
-  float: right;
+.navbar {
+  height: 6rem !important;
+  /* float: right; */
 }
 
 /* the NAVBAR STYLES */
@@ -49,11 +50,7 @@ body {
   height: 100%;
 }
 
-.navParent {
-  position: relative;
-  background-color: aqua;
-  height: 4rem;
-}
+
 
 /* END OF THE NAVBAR */
 
@@ -291,3 +288,28 @@ margin-bottom: 5rem;
 
 
 /* end of benefits section */
+
+/* responsive */
+
+@media (max-width: 768px) {
+  .eightplusBanner {
+    margin-top: 155px;
+    height: 100%;
+}
+.bannerImgEP{
+  height: 270px;
+  width: 412px;
+  object-fit: unset;
+}
+.diffImg{
+  height: 10rem;
+  width: auto;
+  object-fit: cover;
+}
+
+.footerBottleImg{
+width: 80%;
+margin-bottom: 20px;
+}
+
+}

@@ -93,3 +93,15 @@
   border: none;
   border-radius: 0px;
 }
+
+.logo {
+  height: auto;
+  width: 9rem;
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .grid_{
+    margin-bottom: 0px;
+  }
+}
