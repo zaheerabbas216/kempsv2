@@ -32,6 +32,14 @@ body {
   float: right;
 }
 
+
+.nav-item,
+.nav-link {
+  font-size: 20px;
+  font-weight: 800;
+  color: #0074bd !important;
+}
+
 .customNavLink {
   font-size: 22px;
   /* color: #0174bc !important; */
@@ -292,17 +300,22 @@ margin-bottom: 5rem;
 /* responsive */
 
 @media (max-width: 768px) {
+  .navbar {
+    /* height: 0px !important; */
+    height: auto !important;
+    /* float: right; */
+  }
   .eightplusBanner {
-    margin-top: 155px;
+    margin-top: 0px;
     height: 100%;
 }
-.bannerImgEP{
+/* .bannerImgEP{
   height: 270px;
   width: 412px;
   object-fit: unset;
-}
+} */
 .diffImg{
-  height: 10rem;
+  height: 18rem;
   width: auto;
   object-fit: cover;
 }
@@ -310,6 +323,25 @@ margin-bottom: 5rem;
 .footerBottleImg{
 width: 80%;
 margin-bottom: 20px;
+}
+
+.ASEPMobileViewImg{
+  height: 100%;
+  width: 100%;
+}
+
+.ASEPMobileAboutDiv{
+  background-color: #0074bd;
+}
+
+.brochureImgBottle{
+  left: -115px;
+}
+
+.logo {
+  height: auto;
+  width: 8rem;
+  padding-top: 0px;
 }
 
 }

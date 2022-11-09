@@ -15,7 +15,12 @@ body {
   .navBar {
     float: right;
   }
-
+  .nav-item,
+  .nav-link {
+    font-size: 20px;
+    font-weight: 800;
+    color: #ff0080 !important;
+  }
   .logo {
     height: auto;
     width: 9rem;
@@ -41,4 +46,10 @@ body {
     height: 100%;
     width: 100%;
     /* object-fit: cover; */
+  }
+
+  .waterImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
