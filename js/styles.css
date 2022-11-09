@@ -257,6 +257,14 @@ body {
     height: 275px;
     margin-bottom: 20px;
   }
+  .bannerimg {
+    /* height: 100%; */
+    /* width: 100%; */
+    /* object-fit: cover; */
+    height: auto;
+    width: auto;
+    object-fit: contain;
+}
 
   .railwayImgAch {
     height: 275px;
@@ -266,6 +274,9 @@ body {
   .carouselImg {
     height: 30rem;
     width: 80rem;
+  }
+  .carousel-item{
+    height: 14rem;
   }
 
   .slick-next,
