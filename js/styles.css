@@ -70,14 +70,20 @@ body {
   align-items: center;
   justify-content: center;
   bottom: 145px;
-  right: 145px;
-  height: 60px;
-  width: 135px;
+  right: 200px;
+  height: 100px;
+  font-size: 40px;
+  text-decoration: none;
+  width: 300px;
   background: #0074bd;
   color: #ffff;
   font-weight: bold;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
   text-decoration: none;
+}
+.exploreBtn:hover{
+  text-decoration: none;
+  color: #ffff;
 }
 
 /* END OF THE BANNER HOME SECTION CAROSEL BANNER */
@@ -92,12 +98,13 @@ body {
 }
 
 .bannerCard {
-  height: 100%;
+  height: 70%;
   display: flex;
   background-color: #ff0080;
   align-items: center;
   border-radius: 20px;
   justify-content: center;
+  text-align: justify;
 }
 
 .bannerTwoImg {
@@ -184,9 +191,12 @@ body {
 
 
 .carouselImg {
-  height: 30rem;
+  margin-top: 60px;
+  height: 40rem;
   width: 80rem;
-  object-fit: cover;
+
+  /* margin-left: 70px; */
+  /* object-fit: cover; */
 }
 
 .carouselContainer {
@@ -250,7 +260,9 @@ body {
 @media (max-width: 768px) {
   .exploreBtn {
     transform: translate(100px, 132px);
-    height: 45px;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
   }
 
   .railwayRailImg {
@@ -272,8 +284,10 @@ body {
   }
 
   .carouselImg {
-    height: 30rem;
-    width: 80rem;
+    /* height: 30rem;
+    width: 80rem; */
+    margin-left: 0px;
+    height: 180px;
   }
   .carousel-item{
     height: 14rem;

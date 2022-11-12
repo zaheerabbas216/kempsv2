@@ -288,9 +288,12 @@ margin-bottom: 5rem;
 
 /* benefits section */
 .benefitsImgContainer{}
+.benefitsTextContainer,p{
+  font-size: 15px;
+}
 .benefitsImgFR{
-  height: 300px;
-  width: 300px;
+  height: 150px;
+  width: 320px;
   object-fit: cover;
 }
 
