@@ -63,3 +63,9 @@ body {
     font-size: 20px;
     text-align: justify;
   }
+
+  @media (max-width: 768px) {
+.headingStyle{
+  text-align: left;
+}
+  }

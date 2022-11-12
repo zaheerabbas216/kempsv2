@@ -288,6 +288,7 @@ body {
     width: 80rem; */
     margin-left: 0px;
     height: 180px;
+    width: 100%;
   }
   .carousel-item{
     height: 14rem;
