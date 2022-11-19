@@ -288,7 +288,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.railywayLogo{
 
+}
 /* responsive  */
 
 @media (max-width: 768px) {
@@ -313,7 +315,9 @@ body {
 }
 
   .railwayImgAch {
-    height: 275px;
+    /* height: 275px; */
+    height: 100%;
+    width: 100%;
     margin-top: 20px;
   }
 
