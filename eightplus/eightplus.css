@@ -5,15 +5,9 @@ body {
 
 }
 
-/* body{
-      background-color: #6A3FB6;
-    } */
-.aboutUsContainer {
-  background-color: #6A3FB6;
-}
 /* whats app floating icon */
 .float{
-	position:fixed;
+	position:fixed !important;
 	width:60px;
 	height:60px;
 	bottom:40px;
@@ -30,6 +24,14 @@ body {
 .my-float{
 	margin-top:16px;
 }
+
+/* body{
+      background-color: #6A3FB6;
+    } */
+.aboutUsContainer {
+  background-color: #6A3FB6;
+}
+
 .logo {
   height: 50px;
   width: 50px;
