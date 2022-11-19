@@ -126,6 +126,7 @@ body {
   border-radius: 20px;
   justify-content: center;
   text-align: justify;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
 }
 
 .bannerTwoImg {
@@ -237,6 +238,7 @@ body {
 
 .achivementCard{
   width: 98%;
+  /* height: 600px; */
   box-shadow:  0 0 22px 1px #ff0080;
 }
 
@@ -252,7 +254,7 @@ body {
 
 .railwayImgAch {
   height: 100%;
-  width: 90%;
+  width: 100%;
   object-fit: cover;
 }
 
